@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>AnonymousMethods.Program</StartupObject>
+    <StartupObject>Program7</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionWithLambda.cs" />
     <Compile Include="AnanymousMethods.cs" />
     <Compile Include="AnanymousMethods_Prac.cs" />
     <Compile Include="AnanymousToLambdaFunc.cs" />
@@ -53,8 +54,11 @@
     <Compile Include="delegatesWithReturns.cs" />
     <Compile Include="delegatesWithReturn_Prac.cs" />
     <Compile Include="delegate_Practice.cs" />
+    <Compile Include="LambdaWithFunc.cs" />
     <Compile Include="LambdaWithReturntypes.cs" />
     <Compile Include="LambdaWithReturntype_Prac.cs" />
+    <Compile Include="PredicateWithLambda.cs" />
+    <Compile Include="PredicateWithLambda_Prac.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
